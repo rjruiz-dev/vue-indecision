@@ -1,16 +1,27 @@
+<!--Counter.vue el componente padre -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- Counter componente hijos -->
+  <!-- <Counter title='Entraron'/> props: title -->
+  <!-- b-bind :props="15" -->
+  <!-- <Counter :start="15"/> -->
+  <!-- recibe valor por defecto -->
+  <!-- <Counter :start="100"/> -->
+  <Indecision />
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Counter from './components/Counter.vue'
+import Indecision from './components/Indecision.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Counter,
+    Indecision
   }
+ 
 }
 </script>
 

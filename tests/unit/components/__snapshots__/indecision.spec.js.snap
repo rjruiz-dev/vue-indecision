@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Indecision Component debe hacer match con el snapshot 1`] = `
+<!-- <img src="https://via.placeholder.com/250" alt="bg"> -->
+<!-- v-bind, utilizo shortcuod :src -->
+<!-- v-if: como la img es null = false  -->
+<!--v-if-->
+<div class="bg-dark"></div>
+<div class="indecision-container"><input type="text" placeholder="Hazme una pregunta"><!-- enlazar el input con la propiedad reactiva -->
+  <p>Recuerda terminar con un signo de interrogación (?)</p><!-- renderizo este segmento  so la pregunta es valida -->
+  <!--v-if-->
+</div>
+`;
